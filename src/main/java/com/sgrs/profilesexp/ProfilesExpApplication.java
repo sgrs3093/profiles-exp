@@ -30,11 +30,11 @@ public class ProfilesExpApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// Properties p=new Properties();
-		System.out.println(env.getProperty("abc"));
+		/*System.out.println(env.getProperty("abc"));
 		String k = env.getProperty("abc");
 		Class c = Class.forName(k);
 		WeatherService obj = (WeatherService) c.newInstance();
-		System.out.println(obj.weatherDay());
+		System.out.println(obj.weatherDay());*/
 		System.out.println("<html>" + WeatherService.weatherDay() + "</html>");
 	}
 
